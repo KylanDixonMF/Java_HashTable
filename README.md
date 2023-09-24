@@ -1,4 +1,4 @@
-# Kylan Dixon HashTable Lab
+# Kylan Dixon HashTable/Linear Probing
 
 ## OVERVIEW:
 
