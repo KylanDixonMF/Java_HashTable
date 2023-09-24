@@ -1,17 +1,12 @@
-# ****************
-# * Lab 3
-# * CS 321
-# * 4/1/22
-# * Kylan Dixon
-# **************** 
+# Kylan Dixon HashTable Lab
 
-OVERVIEW:
+## OVERVIEW:
 
  Reads files (from different data sources) into 2 different hash tables, one using linear probing
  and one using double hashing methods. 
 
 
-INCLUDED FILES:
+## INCLUDED FILES:
 
  * LinearProbe.java - source file
  * DoubleHashing.java - source file
@@ -21,7 +16,7 @@ INCLUDED FILES:
  * my-results.txt
 
 
-COMPILING AND RUNNING:
+## COMPILING AND RUNNING:
 
  $ javac *.java
 
@@ -31,7 +26,7 @@ COMPILING AND RUNNING:
  Console output will give the results after the program finishes.
 
 
-PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+## PROGRAM DESIGN AND IMPORTANT CONCEPTS:
 
 The HashTable source file creates a generic array. It takes in 
 3 parameters of size, loadFactor and the addressing method.
@@ -49,7 +44,7 @@ HashTest is the driver code of the project and runs it checks whether
 user input is correct or not, if not it will exit system. If correct
 it will run through and output the results.
 
-TESTING:
+## TESTING:
 
  I was having a divide by zero issue for a while , but after setting
  manual output breakpoints I could see that it wasn't even making it
@@ -58,7 +53,7 @@ TESTING:
  This was a quick fix that was incredibly important.
 
 
-DISCUSSION:
+## DISCUSSION:
  
 The logic of this project was relatively straightforward. After doing
 extra reading and seeing how others implemented hashtables I was able
